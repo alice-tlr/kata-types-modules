@@ -3,7 +3,7 @@
 // so we didn't want you to have to deal with more than one test at a time
 var test = require('ava')
 
-var types = require('../types')
+var types = require('../types')//these files use the exports from the other file
 var functions = require('../functions')
 
 test('types.getNumber returns a number', function (t) {
